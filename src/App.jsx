@@ -64,7 +64,8 @@ export default function App() {
 
 function LeftSideSection({ cardName, cardNumber, expMonth, expYear, cvcInfo }) {
   return (
-    <div className="left-side-section  bg-center bg-cover te w-[30%] bg-bgLeft">
+    <div className="left-side-section  bg-center bg-cover te w-[30%] ">
+      {/* bg-bgLeft */}
       <img
         src="/img/bg-card-front.png"
         alt="Card Front"

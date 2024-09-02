@@ -12,4 +12,6 @@
   text-transform: uppercase;
 }
 
-
+.left-side-section {
+  background-image: url(/img/bg-main-desktop.png);
+}
