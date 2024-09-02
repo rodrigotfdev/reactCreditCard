@@ -64,7 +64,8 @@ export default function App() {
 
 function LeftSideSection({ cardName, cardNumber, expMonth, expYear, cvcInfo }) {
   return (
-    <div className="left-side-section  bg-center bg-cover te w-[30%] ">
+    <div className="left-side-section">
+      {/* bg-center bg-cover te w-[30%] */}
       {/* bg-bgLeft */}
       <img
         src="/img/bg-card-front.png"
@@ -94,7 +95,7 @@ function LeftSideSection({ cardName, cardNumber, expMonth, expYear, cvcInfo }) {
 
 function RightSideSection({ handleInputChange, handleSubmit }) {
   return (
-    <div className="right-side-section  flex-col items-center justify-center tr flex w-[70%] ">
+    <div className="right-side-section  flex-col items-center justify-center tr flex w-[70%]">
       <form className="form-section w-[40%] h-[50%]" onSubmit={handleSubmit}>
         <div className="card-primary flex flex-col">
           <label htmlFor="cardName" className="my-2">
