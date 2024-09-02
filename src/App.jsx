@@ -48,7 +48,7 @@ export default function App() {
   };
 
   return (
-    <div className="app flex h-screen">
+    <div className="app flex h-screen overflow-hidden">
       <LeftSideSection {...cardDetails} />
       {isSubmitted ? (
         <ThankYouMessage handleReset={handleReset} />
